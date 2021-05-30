@@ -1,0 +1,9 @@
+// Gallery layout
+.gallery {
+    max-width: 84.8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 155px);
+    grid-auto-rows: 1fr;
+    gap: 17px 7px;
+    margin: 0 auto;
+}

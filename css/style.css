@@ -88,7 +88,6 @@ header .fa-search {
       grid-template-columns: repeat(auto-fit, 155px);
   grid-auto-rows: 1fr;
   gap: 17px 7px;
-  border: 2px solid red;
   margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
