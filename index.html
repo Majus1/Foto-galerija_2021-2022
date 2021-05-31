@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+
     <link rel="stylesheet" href="css/normalize.css">
 
     <link rel="stylesheet" href="css/style.css">
@@ -29,10 +31,13 @@
 
     <main>
         <div class="gallery">
-            <div class="instax">
-                <img src="photos/thumbnails/01.jpg">
-                <p class="marker-case">I love hay bales. Took this snap on a drive through ...</p>
-            </div>
+            <a href="photos/01.jpg" data-caption="Image caption">
+                <div class="instax">
+                    <img src="photos/thumbnails/01.jpg">
+                    <p class="marker-case">I love hay bales. Took this snap on a drive through ...</p>
+                </div>
+            </a>
+
             <div class="instax">
                 <img src="photos/thumbnails/02.jpg">
                 <p class="marker-case">The lake was so calm today. We had a great view ...</p>
@@ -81,6 +86,8 @@
         </div>
     </main>
    
+    <script src="js/baguetteBox.min.js" async></script>
+
 </body>
 </html>
 
