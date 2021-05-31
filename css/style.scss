@@ -20,11 +20,14 @@ p {
 // General
 * {
     font-family: 'Poppins', sans-serif;
+    color: #2f2f2f;
 }
 body {
     background-color: $Soft-reality;
 }
-
+a {
+    text-decoration: none;
+}
 
 // Header
 header {
