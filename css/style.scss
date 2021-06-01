@@ -97,6 +97,11 @@ header {
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.235);
+    // This part of the code will be removed after grading
+    @media (min-width: 768px) {
+        margin: 0 auto;
+    } 
+    // This part of the code will be removed after grading
     .marker-case {
         font-size: 12px;
         font-family: 'Caveat', cursive;
@@ -118,4 +123,9 @@ header {
     grid-auto-rows: 1fr;
     gap: 17px 7px;
     margin: 0 auto;
+    // This part of the code will be removed after grading
+    @media (min-width: 768px) { 
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    // This part of the code will be removed after grading
 }

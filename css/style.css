@@ -118,6 +118,12 @@ header .fa-search {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.235);
 }
 
+@media (min-width: 768px) {
+  .instax {
+    margin: 0 auto;
+  }
+}
+
 .instax .marker-case {
   font-size: 12px;
   font-family: 'Caveat', cursive;
@@ -135,10 +141,16 @@ header .fa-search {
   max-width: 90%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (155px)[auto-fit];
       grid-template-columns: repeat(auto-fit, 155px);
   grid-auto-rows: 1fr;
   gap: 17px 7px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */
