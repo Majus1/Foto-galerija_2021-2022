@@ -90,6 +90,11 @@ header {
 }
 
 // Instax cards
+.gallery a {
+    margin: 0 auto;
+    padding: 0;
+    width: 155px;
+}
 .instax {
     width: 155px;
     height: 248px;
@@ -97,11 +102,7 @@ header {
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.235);
-    // This part of the code will be removed after grading
-    @media (min-width: 768px) {
-        margin: 0 auto;
-    } 
-    // This part of the code will be removed after grading
+
     .marker-case {
         font-size: 12px;
         font-family: 'Caveat', cursive;
@@ -117,15 +118,12 @@ header {
 
 // Gallery layout
 .gallery {
-    max-width: 90%;
+    // will change this after rewiew so it will look nice on mobile also.
+    max-width: 70%;
+    // will change this after rewiew so it will look nice on mobile also.
     display: grid;
-    grid-template-columns: repeat(auto-fit, 155px);
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
     grid-auto-rows: 1fr;
-    gap: 17px 7px;
+    gap: 17px 0px;
     margin: 0 auto;
-    // This part of the code will be removed after grading
-    @media (min-width: 768px) { 
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    // This part of the code will be removed after grading
 }
